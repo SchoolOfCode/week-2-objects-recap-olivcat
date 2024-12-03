@@ -35,8 +35,18 @@ const myFavouriteFilm = {
 
 let person = {
   name: "Ben",
-  likesChocolate: true,
+  likesChocolate: false,
 };
 
-console.log("Does Ben like chocolate?");
-console.log(person.likesChocolate);
+if (person.likesChocolate === true) {
+  console.log("Ben loves Chocolate");
+} else if (person.likesChocolate === false) {
+  console.log("Ben hates Chocolate");
+}
+
+//console.log("Does Ben like chocolate?");
+//console.log(person.likesChocolate);
+
+// Write an if statement that will console.log "Ben loves chocolate"- if likesChocolate has a value of true
+// else console.log "Ben hates chocolate"
+// The condition for the if, and the name Ben should both be read from the object using dot notation.
