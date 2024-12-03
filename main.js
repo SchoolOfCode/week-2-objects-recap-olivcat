@@ -32,3 +32,11 @@ const myFavouriteFilm = {
   releaseDate: "2008",
   leadActor: "Christian Bale",
 };
+
+let person = {
+  name: "Ben",
+  likesChocolate: true,
+};
+
+console.log("Does Ben like chocolate?");
+console.log(person.likesChocolate);
