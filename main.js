@@ -51,7 +51,7 @@ if (person.likesChocolate === true) {
 // else console.log "Ben hates chocolate"
 // The condition for the if, and the name Ben should both be read from the object using dot notation.
 
-let desiredPleasantry = "greeting";
+let desiredPleasantry = "ciao!";
 
 let bensPhrases = {
   greeting: "Well hello there!",
@@ -59,6 +59,9 @@ let bensPhrases = {
   smallTalk: "Warm today, isn't it...",
 };
 console.log(bensPhrases["smallTalk"]);
+console.log([desiredPleasantry]);
 
 //Use bracket notation and the smallTalk property to console.log Ben's smalltalk phrase.
 // alert(user["likes birds"]);
+// Use bracket notation and the desiredPleasantry variable to console.log Ben's greeting phrase.
+// Change what is console logged by changing the value of desiredPleasantry.
