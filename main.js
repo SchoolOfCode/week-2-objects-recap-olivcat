@@ -65,3 +65,35 @@ console.log([desiredPleasantry]);
 // alert(user["likes birds"]);
 // Use bracket notation and the desiredPleasantry variable to console.log Ben's greeting phrase.
 // Change what is console logged by changing the value of desiredPleasantry.
+
+let me = {
+  firstName: "Olivia",
+  lastName: "Butcher",
+  isBootcamper: true,
+};
+
+console.log("Olivia is a bootcamper");
+
+//Below your object, reassign the property of isBootcamper using the assignment operator. Make it true!
+
+//let person = { name: "Alice", age: 25 };
+//person.age = 26; // Reassigning the 'age' property
+//console.log(person.age); // Output: 26
+
+let communication = {
+  success: true,
+  payload: {
+    message: {
+      text: "Please send biscuits!",
+      priority: "URGENT",
+    },
+  },
+};
+let messageText = communication.payload.message.text;
+
+console.log(messageText);
+
+let priority = "URGENT";
+
+// Using dot notation, read the text from the communication object and store it in a variable.
+//  If the priority is urgent, then console.log the variable, else do nothing.
