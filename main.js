@@ -50,3 +50,15 @@ if (person.likesChocolate === true) {
 // Write an if statement that will console.log "Ben loves chocolate"- if likesChocolate has a value of true
 // else console.log "Ben hates chocolate"
 // The condition for the if, and the name Ben should both be read from the object using dot notation.
+
+let desiredPleasantry = "greeting";
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+console.log(bensPhrases["smallTalk"]);
+
+//Use bracket notation and the smallTalk property to console.log Ben's smalltalk phrase.
+// alert(user["likes birds"]);
